@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,11 +24,30 @@
             Rehnuma Padhiyar
         </div>
 
-        <ul class="nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#contact">Contact</a></li>
+        <!-- Mobile Menu Button -->
+        <div class="menu-toggle" id="menu-toggle">
+            &#9776;
+        </div>
+
+        <!-- Navigation -->
+        <ul class="nav-links" id="nav-links">
+
+            <li>
+                <a href="#home">Home</a>
+            </li>
+
+            <li>
+                <a href="#about">About</a>
+            </li>
+
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+
         </ul>
 
     </nav>
@@ -36,130 +56,138 @@
 
 <main>
 
-<!-- ================= HOME ================= -->
+    <!-- Home Section -->
 
-<section id="home" class="hero">
+    <section id="home" class="hero">
 
-    <div class="hero-content">
+        <div class="hero-content">
 
-        <h1>Hello, I'm <span>Rehnuma Padhiyar</span></h1>
+            <h1>
+                Hello, I'm
+                <span>Rehnuma Padhiyar</span>
+            </h1>
 
-        <h2>Frontend Developer</h2>
-
-        <p>
-            I am a passionate BCA student and Frontend Developer. I enjoy creating modern,
-            responsive and user-friendly websites while continuously learning new technologies.
-        </p>
-
-        <a href="#contact" class="btn">
-            Contact Me
-        </a>
-
-    </div>
-
-    <div class="hero-image">
-
-        <div class="profile-card">
-
-            <h2>Frontend Developer</h2>
+            <h2>
+                Frontend Developer
+            </h2>
 
             <p>
-                Passionate about creating beautiful and responsive websites.
+                I am a passionate BCA student who enjoys creating modern,
+                responsive and user-friendly websites using HTML, CSS,
+                JavaScript, Bootstrap, PHP and Java.
             </p>
 
+            <a href="#contact" class="btn">
+                Contact Me
+            </a>
+
         </div>
 
-    </div>
+        <div class="hero-image">
 
-</section>
+            <div class="profile-card">
 
-<!-- ================= ABOUT ================= -->
+                <h2>
+                    Frontend Developer
+                </h2>
 
-<section id="about">
+                <p>
+                    Passionate about designing beautiful and responsive
+                    websites with clean UI.
+                </p>
 
-    <h2 class="section-title">About Me</h2>
+            </div>
 
-    <p>
-        Hello! I'm <strong>Rehnuma Padhiyar</strong>, a BCA student with a passion for Frontend
-        Development. I enjoy designing attractive, responsive and user-friendly websites.
-        My goal is to become a professional Full Stack Developer while continuously improving
-        my programming and problem-solving skills.
-    </p>
-
-</section>
-
-<!-- ================= SKILLS ================= -->
-
-<section id="skills">
-
-    <h2 class="section-title">My Skills</h2>
-
-    <div class="skills-container">
-
-        <div class="skill-card">
-            <h3>HTML</h3>
-            <p>Semantic Web Structure</p>
         </div>
 
-        <div class="skill-card">
-            <h3>CSS</h3>
-            <p>Responsive UI Design</p>
+    </section>
+        <!-- ================= ABOUT ================= -->
+
+    <section id="about">
+
+        <h2 class="section-title">About Me</h2>
+
+        <p>
+            Hello! I'm <strong>Rehnuma Padhiyar</strong>, a passionate BCA student and
+            aspiring Frontend Developer. I enjoy creating modern, responsive and
+            user-friendly websites. I love learning new technologies and improving
+            my web development skills every day.
+        </p>
+
+    </section>
+
+    <!-- ================= SKILLS ================= -->
+
+    <section id="skills">
+
+        <h2 class="section-title">My Skills</h2>
+
+        <div class="skills-container">
+
+            <div class="skill-card">
+                <h3>HTML</h3>
+                <p>Semantic Web Structure</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>CSS</h3>
+                <p>Responsive Web Design</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>JavaScript</h3>
+                <p>Interactive Websites</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Bootstrap</h3>
+                <p>Responsive Framework</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>PHP</h3>
+                <p>Backend Development</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Java</h3>
+                <p>Object Oriented Programming</p>
+            </div>
+
         </div>
 
-        <div class="skill-card">
-            <h3>JavaScript</h3>
-            <p>Interactive Websites</p>
-        </div>
+    </section>
 
-        <div class="skill-card">
-            <h3>Bootstrap</h3>
-            <p>Responsive Framework</p>
-        </div>
+    <!-- ================= CONTACT ================= -->
 
-        <div class="skill-card">
-            <h3>PHP</h3>
-            <p>Backend Development Basics</p>
-        </div>
+    <section id="contact">
 
-        <div class="skill-card">
-            <h3>Java</h3>
-            <p>Object Oriented Programming</p>
-        </div>
+        <h2 class="section-title">Contact Me</h2>
 
-    </div>
+        <form class="contact-form">
 
-</section>
+            <div class="input-box">
+                <input type="text" required>
+                <label>Name</label>
+            </div>
 
-<!-- ================= CONTACT ================= -->
+            <div class="input-box">
+                <input type="email" required>
+                <label>Email</label>
+            </div>
 
-<section id="contact">
+            <div class="input-box">
+                <input type="tel" required>
+                <label>Phone Number</label>
+            </div>
 
-    <h2 class="section-title">Contact Me</h2>
+            <button type="submit" class="btn">
+                Send Message
+            </button>
 
-    <form class="contact-form">
+        </form>
 
-        <div class="input-box">
-            <input type="text" required>
-            <label>Name</label>
-        </div>
-
-        <div class="input-box">
-            <input type="email" required>
-            <label>Email</label>
-        </div>
-
-        <div class="input-box">
-            <input type="tel" required>
-            <label>Phone Number</label>
-        </div>
-
-        <button type="submit" class="btn">
-            Send Message
-        </button>
-
-    </form>
-
-</section>
+    </section>
 
 </main>
 
@@ -170,6 +198,8 @@
     </p>
 
 </footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
